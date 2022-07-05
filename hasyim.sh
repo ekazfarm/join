@@ -3,6 +3,8 @@
 
 echo "leav realm"
 realm leave indodana.id
+
+realm leave soltech.local
 echo "Install Paket Yang dibutuhkan"
 yum install sssd realmd oddjob oddjob-mkhomedir adcli samba-common samba-common-tools krb5-workstation openldap-clients policycoreutils-python -y
 
