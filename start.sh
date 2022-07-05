@@ -6,7 +6,7 @@ echo -n "Pilih Site PBX
          input: ";
 read pbx;
 
-if [ $pbx = 1];then
+if [ $pbx = 1 ];then
  sh join.sh;
 else 
 sh hasyim.sh;
