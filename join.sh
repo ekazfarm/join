@@ -17,9 +17,7 @@ service network restart
 echo -n "Masukan User anda : ";
 read user;
 
-echo -n "Masukan Password : ";
-read password;
-realm join -U $user -P $password soltech.local
+realm join -U $user soltech.local
 
 echo "join realm"
 
