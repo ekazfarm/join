@@ -26,7 +26,7 @@ realm join -U $user soltech.local
 echo "ganti sssd.conf "
 rm /etc/sssd/sssd.conf -f
 
-mv sssd.conf /etc/sssd/
+cp sssd.conf /etc/sssd/
 
 chmod 600 /etc/sssd/sssd.conf
 
