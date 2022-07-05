@@ -19,9 +19,6 @@ read user;
 
 realm join -U $user soltech.local
 
-echo "join realm"
-
-
 echo "ganti sssd.conf "
 rm /etc/sssd/sssd.conf -f
 
