@@ -10,7 +10,7 @@ echo "Ganti DNS 1"
 sed -i 's/DNS1=10.10.30.1/DNS1=10.80.12.10/g' /etc/sysconfig/network-scripts/ifcfg-eth0
 
 echo "add DNS2"
-echo DNS3=10.10.10.10 >> /etc/sysconfig/network-scripts/ifcfg-eth0
+echo DNS2=10.80.12.13 >> /etc/sysconfig/network-scripts/ifcfg-eth0
 
 echo "Add Local Domain"
 echo DOMAIN=soltech.local >> /etc/sysconfig/network-scripts/ifcfg-eth0
