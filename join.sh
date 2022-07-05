@@ -1,4 +1,8 @@
 #!/bin/bash
+
+echo "leave realm"
+realm leave indodana.id
+
 echo "Install Paket Yang dibutuhkan"
 yum install sssd realmd oddjob oddjob-mkhomedir adcli samba-common samba-common-tools krb5-workstation openldap-clients policycoreutils-python -y
 
