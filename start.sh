@@ -1,6 +1,8 @@
 #!/bin/bash
 
-echo -n "Jika pbx pada server tomang pilih angka 1 dan jika pbx server hasyim pilih angka 2: ";
+echo -n "Pilih PBX
+         1. Site Tomang
+         2. Site Hasyim";
 read pbx;
 
 if [ $pbx = 1];then
