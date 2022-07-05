@@ -1,8 +1,9 @@
 #!/bin/bash
 
-echo -n "Pilih PBX
+echo -n "Pilih Site PBX
          1. Site Tomang
-         2. Site Hasyim";
+         2. Site Hasyim
+         input: ";
 read pbx;
 
 if [ $pbx = 1];then
